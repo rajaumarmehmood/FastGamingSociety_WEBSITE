@@ -1,0 +1,47 @@
+/* UserDashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px red;
+}
+
+.dashboard-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px white;
+}
+
+.events-table th,
+.events-table td {
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
+.events-table th {
+    background: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.events-table tbody tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.events-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

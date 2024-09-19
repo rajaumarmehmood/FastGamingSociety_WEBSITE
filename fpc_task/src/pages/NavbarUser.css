@@ -1,0 +1,38 @@
+.user-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.user-navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.user-navbar-links {
+    display: flex;
+    gap: 15px;
+}
+
+.user-navbar-links a, .user-navbar-links button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.user-navbar-links a:hover, .user-navbar-links button:hover {
+    text-decoration: underline;
+}
+
+.user-logout-button {
+    background: #ff4d4d;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

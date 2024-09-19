@@ -1,0 +1,115 @@
+/* Global Scroll Configuration */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px red;
+}
+
+.dashboard-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px white;
+    table-layout: fixed; /* Ensure table stays within parent */
+    word-wrap: break-word; /* Break long words in cells */
+}
+
+.events-table th,
+.events-table td {
+    padding: 15px;
+    text-align: left;
+    color: white;
+    word-wrap: break-word; /* Ensure long text wraps within the cell */
+}
+
+.events-table th {
+    background: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.events-table tbody tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.events-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.events-table button {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.479);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.events-table button:hover {
+    background-color: red;
+}
+
+/* Add Event Form Styles */
+.add-event {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+
+.add-event h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: red;
+}
+
+.add-event input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+}
+
+.add-event input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.add-event button {
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-event button:hover {
+    background-color: rgba(255, 0, 0, 0.479);
+}

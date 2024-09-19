@@ -1,0 +1,89 @@
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    /* border-radius: 10px; */
+    color: white; /* Ensure text is readable */
+    border-radius: 15px;
+    box-shadow: 0 0 15px red;
+  }
+  
+  .home-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  table.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px white;
+  }
+  
+  .events-table th,
+  .events-table td {
+    padding: 15px;
+    text-align: left;
+    color: white;
+  }
+  
+  .events-table th {
+    background: rgb(0, 0, 0);
+    text-transform: uppercase;
+    
+  }
+  
+  .events-table tbody tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .events-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .event button {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.479);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .event button:hover {
+    background-color: red;
+  }
+  
+  .add-event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .add-event input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-event button {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-event button:hover {
+    background-color: rgba(255, 0, 0, 0.479);
+  }
+  
